@@ -1,0 +1,10 @@
+Makefile
+CMakeCache.txt
+*.cmake
+.cmake/
+CMakeFiles
+*.ninja*
+*.json
+*.log
+TargetDirectories.txt
+bin/
