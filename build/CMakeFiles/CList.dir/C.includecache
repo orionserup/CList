@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/List.h
+stdlib.h
+-
+stdio.h
+-
+Utils.h
+../include/Utils.h
+
+../include/Utils.h
+assert.h
+-
+
+/home/orion/Code/CList/src/List.c
+List.h
+/home/orion/Code/CList/src/List.h
+stdint.h
+-
+
