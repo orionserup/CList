@@ -1,17 +1,17 @@
 [
 {
-  "directory": "/home/orion/Code/CList/build",
-  "command": "/bin/clang-10  -I/home/orion/Code/CList/build/../include  -g   -o CMakeFiles/CList.dir/home/orion/Code/CList/src/List.o   -c /home/orion/Code/CList/src/List.c",
-  "file": "/home/orion/Code/CList/src/List.c"
+  "directory": "/home/orion/Documents/GitHub/CList/build",
+  "command": "/usr/bin/clang-13 -I/home/orion/Documents/GitHub/CList/build/../include -g -o CMakeFiles/CList.dir/home/orion/Documents/GitHub/CList/src/List.c.o -c /home/orion/Documents/GitHub/CList/src/List.c",
+  "file": "/home/orion/Documents/GitHub/CList/src/List.c"
 },
 {
-  "directory": "/home/orion/Code/CList/build",
-  "command": "/bin/clang-10  -I/home/orion/Code/CList/build/../include  -g   -o CMakeFiles/CList.dir/home/orion/Code/CList/src/Stack.o   -c /home/orion/Code/CList/src/Stack.c",
-  "file": "/home/orion/Code/CList/src/Stack.c"
+  "directory": "/home/orion/Documents/GitHub/CList/build",
+  "command": "/usr/bin/clang-13 -I/home/orion/Documents/GitHub/CList/build/../include -g -o CMakeFiles/CList.dir/home/orion/Documents/GitHub/CList/src/Stack.c.o -c /home/orion/Documents/GitHub/CList/src/Stack.c",
+  "file": "/home/orion/Documents/GitHub/CList/src/Stack.c"
 },
 {
-  "directory": "/home/orion/Code/CList/build",
-  "command": "/bin/clang-10  -I/home/orion/Code/CList/build/../include  -g   -o CMakeFiles/CList.dir/home/orion/Code/CList/test/main.o   -c /home/orion/Code/CList/test/main.c",
-  "file": "/home/orion/Code/CList/test/main.c"
+  "directory": "/home/orion/Documents/GitHub/CList/build",
+  "command": "/usr/bin/clang-13 -I/home/orion/Documents/GitHub/CList/build/../include -g -o CMakeFiles/CList.dir/home/orion/Documents/GitHub/CList/src/main.c.o -c /home/orion/Documents/GitHub/CList/src/main.c",
+  "file": "/home/orion/Documents/GitHub/CList/src/main.c"
 }
 ]

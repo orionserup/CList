@@ -1,6 +1,8 @@
+cmake_minimum_required(VERSION 3.1)
+
 project(CList)
 
-file(GLOB SOURCES ../src/*.c ../test/*.c)
+file(GLOB SOURCES ../src/*.c)
 
 include_directories(../include)
 

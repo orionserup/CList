@@ -13,8 +13,8 @@
 
 int main() {
 
-    List list;
-    Stack stack;
+    List list = {0};
+    Stack stack = {0};
 
     PushFront(&list, 10);
     PushFront(&list, 15);

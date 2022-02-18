@@ -32,7 +32,6 @@ void DeleteNode(Node* const node) {
 Data GetData(const Node* const node) {
 
     Assert(node, "Invalid Node in Get Data");
-
     return node->data;
 
 }
@@ -40,7 +39,6 @@ Data GetData(const Node* const node) {
 void SetData(Node* const node, const Data data) {
 
     Assert(node, "Invalid Node in Set Node Data");
-
     node->data = data;
 
 }
@@ -48,7 +46,6 @@ void SetData(Node* const node, const Data data) {
 Node* GetNext(const Node* const node) {
 
     Assert(node, "Invalid Node in Get Node Next");
-
     return node->next;
 
 }
@@ -56,7 +53,6 @@ Node* GetNext(const Node* const node) {
 void SetNext(Node* const node, const Node* const next) {
 
     Assert(node, "Invalid Node in Set Node Next");
-
     node->next = (Node*)next;
 
 }
@@ -65,9 +61,15 @@ Node* PushFront(List* const list, const Data data) {
 
     Assert(list, "Invalid List in Push Front");
 
-    list->head = CreateNode(data, list->head);
-    list->size++;
+    if(list->size == 0) {
 
+        list->head = CreateNode(data, NULL);
+        list->tail = list->head;
+    }
+    else 
+        list->head = CreateNode(data, list->head);
+
+    list->size++;
     return list->head;
 
 }
@@ -90,7 +92,7 @@ void FPrintList(FILE* const file, const List* const list) {
 
     Assert(list, "Invalid List in Print List");
 
-    for(Node* node = list->head; node->next; node = node->next) 
+    for(Node* node = list->head; node; node = node->next) 
         fprintf(file, "%li->" , (int64_t)node->data);
 
     fputs("NULL\n", file);

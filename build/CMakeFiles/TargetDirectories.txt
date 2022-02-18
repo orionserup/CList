@@ -1,3 +1,3 @@
-/home/orion/Code/CList/build/CMakeFiles/rebuild_cache.dir
-/home/orion/Code/CList/build/CMakeFiles/edit_cache.dir
-/home/orion/Code/CList/build/CMakeFiles/CList.dir
+/home/orion/Documents/GitHub/CList/build/CMakeFiles/CList.dir
+/home/orion/Documents/GitHub/CList/build/CMakeFiles/edit_cache.dir
+/home/orion/Documents/GitHub/CList/build/CMakeFiles/rebuild_cache.dir
