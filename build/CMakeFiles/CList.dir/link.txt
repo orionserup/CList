@@ -1,1 +1,1 @@
-/bin/clang-10 -g  -rdynamic CMakeFiles/CList.dir/home/orion/Code/CList/src/List.o CMakeFiles/CList.dir/home/orion/Code/CList/src/Stack.o CMakeFiles/CList.dir/home/orion/Code/CList/test/main.o  -o /home/orion/Code/CList/bin/CList 
+/usr/bin/cc -rdynamic CMakeFiles/CList.dir/__/src/List.c.o CMakeFiles/CList.dir/__/src/Stack.c.o CMakeFiles/CList.dir/__/src/main.c.o -o ../bin/CList 

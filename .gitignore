@@ -8,3 +8,7 @@ CMakeFiles
 *.log
 TargetDirectories.txt
 bin/
+
+link.txt
+*.make
+*.cmake

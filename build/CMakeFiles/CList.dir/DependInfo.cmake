@@ -1,18 +1,16 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "C"
   )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_C
-  "/home/orion/Code/CList/src/List.c" "/home/orion/Code/CList/build/CMakeFiles/CList.dir/home/orion/Code/CList/src/List.o"
-  "/home/orion/Code/CList/src/Stack.c" "/home/orion/Code/CList/build/CMakeFiles/CList.dir/home/orion/Code/CList/src/Stack.o"
-  "/home/orion/Code/CList/test/main.c" "/home/orion/Code/CList/build/CMakeFiles/CList.dir/home/orion/Code/CList/test/main.o"
-  )
-set(CMAKE_C_COMPILER_ID "Clang")
 
-# The include file search paths:
-set(CMAKE_C_TARGET_INCLUDE_PATH
-  "../include"
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/orion/Documents/GitHub/CDSA/Lists/src/List.c" "Lists/build/CMakeFiles/CList.dir/__/src/List.c.o" "gcc" "Lists/build/CMakeFiles/CList.dir/__/src/List.c.o.d"
+  "/home/orion/Documents/GitHub/CDSA/Lists/src/Stack.c" "Lists/build/CMakeFiles/CList.dir/__/src/Stack.c.o" "gcc" "Lists/build/CMakeFiles/CList.dir/__/src/Stack.c.o.d"
+  "/home/orion/Documents/GitHub/CDSA/Lists/src/main.c" "Lists/build/CMakeFiles/CList.dir/__/src/main.c.o" "gcc" "Lists/build/CMakeFiles/CList.dir/__/src/main.c.o.d"
   )
 
 # Targets to which this target links.

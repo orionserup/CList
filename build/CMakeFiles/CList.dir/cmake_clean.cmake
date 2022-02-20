@@ -1,9 +1,12 @@
 file(REMOVE_RECURSE
-  "/home/orion/Code/CList/bin/CList"
-  "/home/orion/Code/CList/bin/CList.pdb"
-  "CMakeFiles/CList.dir/home/orion/Code/CList/src/List.o"
-  "CMakeFiles/CList.dir/home/orion/Code/CList/src/Stack.o"
-  "CMakeFiles/CList.dir/home/orion/Code/CList/test/main.o"
+  "../bin/CList"
+  "../bin/CList.pdb"
+  "CMakeFiles/CList.dir/__/src/List.c.o"
+  "CMakeFiles/CList.dir/__/src/List.c.o.d"
+  "CMakeFiles/CList.dir/__/src/Stack.c.o"
+  "CMakeFiles/CList.dir/__/src/Stack.c.o.d"
+  "CMakeFiles/CList.dir/__/src/main.c.o"
+  "CMakeFiles/CList.dir/__/src/main.c.o.d"
 )
 
 # Per-language clean rules from dependency scanning.
